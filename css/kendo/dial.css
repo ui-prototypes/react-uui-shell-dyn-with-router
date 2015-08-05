@@ -1,0 +1,44 @@
+@import url(http://fonts.googleapis.com/css?family=Orbitron:400,700);
+
+body {
+    padding: 1em;
+}
+
+.container {
+    background: transparent url("http://demos.telerik.com/kendo-ui/content/dataviz/gauge/gauge-container-partial.png") no-repeat 50% 50%;
+    width: 386px;
+    height: 386px;
+    text-align: center;
+    margin: 0 auto 30px auto;
+}
+.gauge {
+    width: 350px;
+    height: 300px;
+    margin: 0 auto;
+}
+.container .k-slider {
+    margin-top: -15px;
+    width: 140px;
+}
+
+.uom-select {
+    font-size: 1.5em;
+    color: #A3A3A3;
+    padding: .10em 1em .10em 1em;
+    border: 1pt solid silver;
+    border-radius: 3px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;    
+    display:block;
+    margin: auto;
+    text-align:center;
+}
+
+.speed-display {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 52pt;
+    font-weight: bold;
+    color: hsla(203, 92%, 39%, 0.81);
+    text-align:center;
+}
